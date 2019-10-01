@@ -1,0 +1,92 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Tahoma";
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+
+    
+}
+
+h1 {
+    color: white;
+    line-height: 1.1;
+    text-align: center;
+    font-weight: 500;
+    background: cornflowerblue;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20px 0;
+    letter-spacing: 4px;
+    font-size: 2.5rem;
+    text-shadow: black;
+}
+
+h2 {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 150px;
+    font-size: 2rem;
+    color: white;
+    text-shadow: black;
+
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    color: white;
+    background: cornflowerblue
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 600;
+    color: cornflowerblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    font-family: "Tahoma";
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background: cornflowerblue
+}
